@@ -27,7 +27,7 @@ This project implements a comprehensive **full-stack machine learning system** d
 **2. Revenue Predictor: Optimizing Hourly Yield** * **Business Problem:** Drivers experience highly variable hourly wages due to poor route selection and "blind" dispatching. Tip amounts exhibit severe heteroskedasticity (variance scales exponentially with distance).
 * **Research Objective:** Predict expected gratuity strictly based on pre-trip logistics (time, day, starting/ending borough) without utilizing post-trip financial data. Utilize advanced non-linear regression algorithms to accurately map human tipping behavior.
 
-![Tip Prediction Dashboard](./images/tip_prediction_dashboard.png)
+![Tip Prediction Dashboard](./images/revenue_predictor.png)
 
 **3. Traffic & Duration Estimator: Dynamic Routing** * **Business Problem:** In New York City, physical distance does not equal time. A 2-mile trip during rush hour takes drastically longer than at 3:00 AM, disrupting ETA systems and shift planning.
 * **Research Objective:** Map the physical realities of city traffic to accurately predict trip duration in exact minutes. The model must isolate spatial-temporal penalties, such as the Evening Rush, to forecast travel time within a strict 4-minute margin of error.
@@ -35,7 +35,7 @@ This project implements a comprehensive **full-stack machine learning system** d
 **4. Behavioral Destination AI: Mitigating Deadhead Risk** * **Business Problem:** Dispatchers risk "deadheading"—sending drivers to remote outer-borough zones where they are highly unlikely to find a return fare.
 * **Research Objective:** Classify a passenger's intended drop-off borough based strictly on pickup context. Address the massive "Manhattan Imbalance" (where >85% of trips remain inside Manhattan) using SMOTE to force the model to identify subtle outer-borough commuter patterns.
 
-![Behavioral Destination AI](./images/destination_prediction.png)
+![Behavioral Destination AI](./images/behavioural_destination.png)
 
 <h2 id="data-sources">🗄️ Data Sources</h2>
 
