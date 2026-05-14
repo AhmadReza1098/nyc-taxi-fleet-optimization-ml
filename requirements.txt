@@ -1,0 +1,5 @@
+pandas
+duckdb
+scikit-learn
+xgboost
+streamlit
